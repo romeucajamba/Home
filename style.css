@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+.section-padding{
+    padding: 50px 0;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+.vid-bg{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/*Area de navegação*/
+.nav-area{
+    background:  rgba(0, 0, 0, 0.6);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+/*Logo*/
+.logo{
+    margin: 10px 50px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+/*Menu*/
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.menu-area li.active a{
+    color: tomato;
+}
+.menu-area li a:hover{
+    color: tomato;
+}
+/*Texto header*/
+.welcome-text{
+    position: absolute ;
+    top: 400%;
+    text-align: center;
+    left: 24%;
+}
+.welcome-text h2{
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+}
+.welcome-text p{
+    color: #fff;
+    font-size: 18px;
+}
+.btn{
+    background: tomato;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 25px;
+}
+/*Sections*/
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-header h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.line{
+    height: 2px;
+    width: 300px;
+    background: #000;
+    display: inline-block;
+}
+.section-header p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*About*/
+.about-left{
+    width: 50%;
+    float: left ;
+}
+.about-left img{
+    width: 100%;
+}
+.about-right{
+    float: right;
+    width: 50%;
+    padding: 30px;
+}
+/*Portifolio*/
+.single-portifolio{
+    width: 30%;
+    float: left;
+    margin: 0 13px;
+}
+.single-portifolio img{
+    width: 100%;
+    height: 200px;
+}
+.portifolio-section{
+    background: #eee;
+}
+.single-services{
+    width: 31%;
+    margin: 0 13px;
+    float: left;
+    text-align: center;
+}
+.services-icon{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    background: rgb(168, 157, 155);
+    text-align: center;
+    border-radius: 100%;
+    padding: 10px 0;
+}
+.services-icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+}
+.contact-section{
+    background: #eee;
+}
+.contact-left{
+    float: left;
+    width: 50%;
+}
+.contact-right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.contact-left input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 0 15px;
+} 
+.contact-left textarea{
+    width: 100%;
+    padding: 15px;
+}
+.address-area ion-icon{
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px 0;
+    margin-left: 5%;
+}
+.btn{
+    margin-left: 20%;
+    width: 50%;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background: orangered;
+}
+.footer p{
+    text-align: center;
+    text-transform: uppercase;
+    weight: 700;
+    color: black;
+}
